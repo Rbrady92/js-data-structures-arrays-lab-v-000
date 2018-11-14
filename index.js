@@ -33,3 +33,9 @@ function removeLastDriver() {
   arr.pop()
   return arr
 }
+
+function removeFirstDriver() {
+  let arr = drivers.slice()
+  arr.shift()
+  return arr
+}
