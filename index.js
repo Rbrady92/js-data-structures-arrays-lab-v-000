@@ -27,3 +27,9 @@ function prependDriver(name) {
   arr.unshift(name)
   return arr
 }
+
+function removeLastDriver() {
+  let arr = drivers.slice()
+  arr.pop()
+  return arr
+}
